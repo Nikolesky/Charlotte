@@ -4,6 +4,7 @@ Charlotte is a modular, voice-enabled personal desktop assistant built using Ope
 
 ```
 Charlotte-assistant/
+├──README.md
 ├── main.py                 # Entry point
 ├── config.py               # Your API keys and settings
 ├── functions/
