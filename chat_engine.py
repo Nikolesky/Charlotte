@@ -1,9 +1,8 @@
+from google import genai
+from google.genai import types
+from config import GENAI_API_KEY
 
 def start_chat():
-    from google import genai
-    from google.genai import types
-    from config import GENAI_API_KEY
-
     client = genai.Client(api_key=GENAI_API_KEY)
 
     chat = client.chats.create(model='gemini-2.0-flash')
