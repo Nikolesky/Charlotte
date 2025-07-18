@@ -1,2 +1,5 @@
 google-generativeai
 PyQt5
+pyttsx3
+sounddevice
+scipy
